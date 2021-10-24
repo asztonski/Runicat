@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="218.789" height="218.789" viewBox="0 0 218.789 218.789">
+  <g id="moon" transform="translate(-849.606 -369.605)">
+    <g id="Grupa_14" data-name="Grupa 14">
+      <rect id="Prostokąt_11" data-name="Prostokąt 11" width="154" height="154" transform="translate(882 402)" stroke-width="1" stroke="#393f3e" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect id="Prostokąt_11_kopia_8" data-name="Prostokąt 11 kopia 8" width="134" height="134" transform="translate(892 412)" stroke-width="1" stroke="#393f3e" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="Prostokąt_11_kopia_2" data-name="Prostokąt 11 kopia 2" d="M959,370.105,1067.894,479,959,587.894,850.106,479Z" stroke="#393f3e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Prostokąt_11_kopia_9" data-name="Prostokąt 11 kopia 9" d="M960,383.105,1054.894,478,960,572.894,865.106,478Z" stroke="#393f3e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Prostokąt_11_kopia_10" data-name="Prostokąt 11 kopia 10" d="M960,403.105,1034.894,478,960,552.894,885.106,478Z" stroke="#393f3e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Prostokąt_zaokrąglony_14_kopia" data-name="Prostokąt zaokrąglony 14 kopia" d="M900.006,537.493a65.526,65.526,0,0,1,0-117.987,65.526,65.526,0,0,1,117.988,0,65.526,65.526,0,0,1,0,117.988,65.527,65.527,0,0,1-117.988,0Z" fill="none" stroke="#393f3e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <circle id="Elipsa_2" data-name="Elipsa 2" cx="67" cy="67" r="67" transform="translate(893.5 411.5)" stroke-width="1" stroke="#393f3e" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,78 @@
+@media screen and (max-width: 1024px) {
+    .rightBtn {
+        width: auto;
+        height: auto;
+        position: absolute;
+        bottom: 5.5%;
+        right: 103%;
+        opacity: 0;
+        z-index: 20;
+    }
+    
+    .rightBtn svg {
+        margin-right: 3px;
+    }
+
+    .rightBtn svg:first-child {
+        opacity: 0;
+    }    
+
+    .firstSlide .rightBtn svg:first-child {
+        opacity: 1;
+        transition: .36s ease;
+    }
+    
+    .secondSlide .rightBtn {
+        opacity: 0;
+    }
+
+    .third .rightBtn {
+        transition: .36s ease;
+        /* transition-delay: 3.5s; */
+        opacity: 1;
+        transition-delay: 3.5s;
+        display: flex;
+        height: 12px;
+        /* opacity: 1; */
+    }
+    
+    .firstSlide .rightBtn {
+        transition-delay: 1s;
+    }
+
+    .secondSlide .rightBtn {
+        opacity: 0;
+        transition-delay: 1s;
+    }
+    
+    .third .rightBtn svg {
+        animation: blink 1s ease infinite;
+    }
+
+    .third .rightBtn svg:nth-child(2) {
+        animation-delay: .2s;
+    }
+
+    .third .rightBtn svg:nth-child(3) {
+        animation-delay: .3s;
+        stroke: transparent;
+    }
+
+    /* .firstSlide .rightBtn svg:nth-child(3) {
+        stroke: ;
+    } */
+
+    @keyframes blink {
+        0% {
+            opacity: 0;
+    }    
+
+        50% {
+            opacity: 1;
+    }    
+
+        100% {
+            opacity: 0;
+        }
+    }
+}

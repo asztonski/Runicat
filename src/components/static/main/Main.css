@@ -1,0 +1,44 @@
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.25vw;
+}
+
+.bglight {
+    bottom: 4vw;
+    transition: .74s cubic-bezier(0,0.8,0.5,0.92);
+    position: absolute;
+    display: block;
+    width: 650px;
+    height: 500px;
+    background-color: var(--green-color);
+    border-radius: 100%;
+    filter: blur(100px);
+}
+
+.Left-Rune,
+.Right-Rune {
+    width: .907vw;
+    z-index: 2;
+}
+
+/* .Left-Rune {
+    stroke: black;
+} */
+
+.Right-Rune {
+    height: fit-content;
+    align-self: flex-end;
+}
+
+.Left-Rune path, .Right-Rune path {
+    fill: black;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .bglight {
+        display: none;
+    }
+  
+  }

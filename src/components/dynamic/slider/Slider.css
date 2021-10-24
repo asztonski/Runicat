@@ -1,0 +1,90 @@
+.slider {
+    display: inline-flex;
+    align-items: center;
+    position: absolute;
+    bottom: 11.85%;
+    left: 4.8%;
+    z-index: inherit;
+    /* width: 18vw; */
+}
+
+.slider path {
+    transition: .36s ease;
+}
+
+.slider p {
+    font-family: 'Raleway';
+    letter-spacing: 2.09px;
+    line-height: 12px;
+    font-size: 19px;
+}
+
+.slider p.number::after {
+    content: '1';
+}
+
+.second .slider p.number::after {
+    content: '2';
+}
+
+.third .slider p.number::after {
+    content: '3';
+}
+
+.slider span {
+    display: block;
+    height: 5px;
+    width: 158px;
+    background-color: #1C1C1C;
+    margin: 0 20px;
+}
+
+.slider span:after {
+    content: '';
+    height: 5px;
+    width: 0%;
+    background-color: white;
+    display: block;
+    transition: .74s ease;
+}
+
+.progress .slider span::after {
+    width: 33%;
+}
+
+.slider p:nth-child(3) {
+    margin-right: 20px;
+}
+
+.slider button {
+    margin: 0 7px;
+}
+
+.slider button svg path {
+    transition: .36s ease;
+}
+
+.slider .left-button {
+    margin-left: 27px
+}
+
+.slider  svg path {
+    stroke: #393F3E;
+}
+
+.green .slider .right-button:hover svg path {
+    stroke: var(--green-color);
+}
+
+.second .slider .left-button:hover svg path {
+    stroke: var(--green-color);
+}
+
+.second .progress-bar::after {
+    width: 66%;
+}
+
+.third .progress-bar::after {
+    width: 100%;
+    transition-delay: 1.5s;
+}

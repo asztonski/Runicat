@@ -1,0 +1,865 @@
+header path,
+header rect,
+header span,
+header span::before,
+header span::after,
+footer a span {
+    transition: .34s ease;
+}
+
+/* FEHU */
+
+.FEHU header path {
+    fill: var(--fehu)
+}
+
+.FEHU header span,
+.FEHU header span::before,
+.FEHU header span::after {
+    background-color: var(--fehu);
+}
+
+.FEHU footer a span {
+    color: var(--fehu)
+}
+
+.FEHU .jwwuMV,
+.FEHU .kDMWkW {
+    background-color: var(--fehu);
+}
+
+.FEHU .bglight,
+.FEHU .mobile-background,
+.FEHU .Third .right .wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--fehu);
+}
+
+.FEHU .rightBtn svg path,
+.FEHU header .socials svg rect,
+.FEHU header .socials .insta path {
+    stroke: var(--fehu);
+    fill: none;
+}
+
+
+/* URUZ */
+
+.URUZ header path {
+    fill: var(--uruz)
+}
+
+.URUZ header span,
+.URUZ header span::before,
+.URUZ header span::after {
+    background-color: var(--uruz);
+}
+
+.URUZ footer a span {
+    color: var(--uruz)
+}
+
+.URUZ .jwwuMV,
+.URUZ .kDMWkW,
+.URUZ .Third .right .wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--uruz);
+}
+
+.URUZ .bglight,
+.URUZ .mobile-background  {
+    background-color: var(--uruz);
+}
+
+.URUZ .rightBtn svg path,
+.URUZ header .socials svg rect,
+.URUZ header .socials .insta path {
+    stroke: var(--uruz);
+    fill: none;
+}
+
+
+
+/* THURISAZ */
+
+.THURISAZ header path {
+    fill: var(--thurisaz)
+}
+
+.THURISAZ header span,
+.THURISAZ header span::before,
+.THURISAZ header span::after {
+    background-color: var(--thurisaz);
+}
+
+.THURISAZ footer a span {
+    color: var(--thurisaz)
+}
+
+.THURISAZ .jwwuMV,
+.THURISAZ .kDMWkW,
+.THURISAZ .Third .right .wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--thurisaz);
+}
+
+.THURISAZ .bglight,
+.THURISAZ .mobile-background  {
+    background-color: var(--thurisaz);
+}
+
+.THURISAZ .rightBtn svg path,
+.THURISAZ header .socials svg rect,
+.THURISAZ header .socials .insta path {
+    stroke: var(--thurisaz);
+    fill: none;
+}
+
+
+/* ANSUZ */
+
+.ANSUZ header path {
+    fill: var(--anzus)
+}
+
+.ANSUZ header span,
+.ANSUZ header span::before,
+.ANSUZ header span::after {
+    background-color: var(--anzus);
+}
+
+.ANSUZ footer a span {
+    color: var(--anzus)
+}
+
+.ANSUZ .jwwuMV,
+.ANSUZ .kDMWkW,
+.ANSUZ .Third .right .wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--anzus);
+}
+
+.ANSUZ .bglight,
+.ANSUZ .mobile-background  {
+    background-color: var(--anzus);
+}
+
+.ANSUZ .rightBtn svg path,
+.ANSUZ header .socials svg rect,
+.ANSUZ header .socials .insta path {
+    stroke: var(--anzus);
+    fill: none;
+}
+
+
+
+/* RAIDHO */
+
+.RAIDHO header path {
+    fill: var(--raidho)
+}
+
+.RAIDHO header span,
+.RAIDHO header span::before,
+.RAIDHO header span::after {
+    background-color: var(--raidho);
+}
+
+.RAIDHO footer a span {
+    color: var(--raidho)
+}
+
+.RAIDHO .jwwuMV,
+.RAIDHO .kDMWkW,
+.RAIDHO .Third .right .wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--raidho);
+}
+
+.RAIDHO .bglight,
+.RAIDHO .mobile-background  {
+    background-color: var(--raidho);
+}
+
+.RAIDHO .rightBtn svg path,
+.RAIDHO header .socials svg rect,
+.RAIDHO header .socials .insta path {
+    stroke: var(--raidho);
+    fill: none;
+}
+
+
+
+/* KENAZ */
+
+.KENAZ header path {
+    fill: var(--kenaz)
+}
+
+.KENAZ header span,
+.KENAZ header span::before,
+.KENAZ header span::after {
+    background-color: var(--kenaz);
+}
+
+.KENAZ footer a span {
+    color: var(--kenaz)
+}
+
+.KENAZ .jwwuMV,
+.KENAZ .kDMWkW,
+.KENAZ .Third .right .wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--kenaz);
+}
+
+.KENAZ .bglight,
+.KENAZ .mobile-background  {
+    background-color: var(--kenaz);
+}
+
+.KENAZ .rightBtn svg path,
+.KENAZ header .socials svg rect,
+.KENAZ header .socials .insta path {
+    stroke: var(--kenaz);
+    fill: none;
+}
+
+
+
+/* GEBO */
+
+.GEBO header path {
+    fill: var(--gebo)
+}
+
+.GEBO header span,
+.GEBO header span::before,
+.GEBO header span::after {
+    background-color: var(--gebo);
+}
+
+.GEBO footer a span {
+    color: var(--gebo)
+}
+
+.GEBO .jwwuMV,
+.GEBO .kDMWkW,
+.GEBO .Third .right .wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--gebo);
+}
+
+.GEBO .bglight,
+.GEBO .mobile-background  {
+    background-color: var(--gebo);
+}
+
+.GEBO .rightBtn svg path,
+.GEBO header .socials svg rect,
+.GEBO header .socials .insta path {
+    stroke: var(--gebo);
+    fill: none;
+}
+
+
+
+/* WUNJO */
+
+.WUNJO header path {
+    fill: var(--wunjo)
+}
+
+.WUNJO header span,
+.WUNJO header span::before,
+.WUNJO header span::after {
+    background-color: var(--wunjo);
+}
+
+.WUNJO footer a span {
+    color: var(--wunjo)
+}
+
+.WUNJO .kDMWkW,
+.WUNJO .jwwuMV,
+.WUNJO .Third .right .wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--wunjo);
+}
+
+
+.WUNJO .bglight,
+.WUNJO .mobile-background  {
+    background-color: var(--wunjo);
+}
+
+.WUNJO .rightBtn svg path,
+.WUNJO header .socials svg rect,
+.WUNJO header .socials .insta path {
+    stroke: var(--wunjo);
+    fill: none;
+}
+
+
+
+/* HAGALAZ */
+
+.HAGALAZ header path {
+    fill: var(--hagal)
+}
+
+.HAGALAZ header span,
+.HAGALAZ header span::before,
+.HAGALAZ header span::after {
+    background-color: var(--hagal);
+}
+
+.HAGALAZ footer a span {
+    color: var(--hagal)
+}
+
+.HAGALAZ .kDMWkW,
+.HAGALAZ .jwwuMV {
+    background-color: var(--hagal);
+}
+
+
+.HAGALAZ .bglight,
+.HAGALAZ .mobile-background,
+.HAGALAZ .Third .right .wrapper::-webkit-scrollbar-thumb  {
+    background-color: var(--hagal);
+}
+
+.HAGALAZ .rightBtn svg path,
+.HAGALAZ header .socials svg rect,
+.HAGALAZ header .socials .insta path {
+    stroke: var(--hagal);
+    fill: none;
+}
+
+
+/* NAUTHIZ */
+
+.NAUTHIZ header path {
+    fill: var(--nauthiz)
+}
+
+.NAUTHIZ header span,
+.NAUTHIZ header span::before,
+.NAUTHIZ header span::after {
+    background-color: var(--nauthiz);
+}
+
+.NAUTHIZ footer a span {
+    color: var(--nauthiz)
+}
+
+.NAUTHIZ .kDMWkW,
+.NAUTHIZ .jwwuMV {
+    background-color: var(--nauthiz);
+}
+
+
+.NAUTHIZ .bglight,
+.NAUTHIZ .mobile-background,
+.NAUTHIZ .Third .right .wrapper::-webkit-scrollbar-thumb  {
+    background-color: var(--nauthiz);
+}
+
+.NAUTHIZ .rightBtn svg path,
+.NAUTHIZ header .socials svg rect,
+.NAUTHIZ header .socials .insta path {
+    stroke: var(--nauthiz);
+    fill: none;
+}
+
+/* ISA */
+
+.ISA header path {
+    fill: var(--isa)
+}
+
+.ISA header span,
+.ISA header span::before,
+.ISA header span::after {
+    background-color: var(--isa);
+}
+
+.ISA footer a span {
+    color: var(--isa)
+}
+
+.ISA .kDMWkW,
+.ISA .jwwuMV,
+.ISA .Third .right .wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--isa);
+}
+
+
+.ISA .bglight,
+.ISA .mobile-background  {
+    background-color: var(--isa);
+}
+
+.ISA .rightBtn svg path,
+.ISA header .socials svg rect,
+.ISA header .socials .insta path {
+    stroke: var(--isa);
+    fill: none;
+}
+
+/* JERA */
+
+.JERA header path {
+    fill: var(--jera)
+}
+
+.JERA header span,
+.JERA header span::before,
+.JERA header span::after {
+    background-color: var(--jera);
+}
+
+.JERA footer a span {
+    color: var(--jera)
+}
+
+.JERA .kDMWkW,
+.JERA .jwwuMV,
+.JERA .Third .right .wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--jera);
+}
+
+
+.JERA .bglight,
+.JERA .mobile-background  {
+    background-color: var(--jera);
+}
+
+.JERA .rightBtn svg path,
+.JERA header .socials svg rect,
+.JERA header .socials .insta path {
+    stroke: var(--jera);
+    fill: none;
+}
+
+/* EIHWAZ */
+
+.EIHWAZ header path {
+    fill: var(--eihwaz)
+}
+
+.EIHWAZ header span,
+.EIHWAZ header span::before,
+.EIHWAZ header span::after {
+    background-color: var(--eihwaz);
+}
+
+.EIHWAZ footer a span {
+    color: var(--eihwaz)
+}
+
+.EIHWAZ .kDMWkW,
+.EIHWAZ .jwwuMV,
+.EIHWAZ .Third .right .wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--eihwaz);
+}
+
+
+.EIHWAZ .bglight,
+.EIHWAZ .mobile-background  {
+    background-color: var(--eihwaz);
+}
+
+.EIHWAZ .rightBtn svg path,
+.EIHWAZ header .socials svg rect,
+.EIHWAZ header .socials .insta path {
+    stroke: var(--eihwaz);
+    fill: none;
+}
+
+/* PERTHO */
+
+.PERTHO header path {
+    fill: var(--pertho)
+}
+
+.PERTHO header span,
+.PERTHO header span::before,
+.PERTHO header span::after {
+    background-color: var(--pertho);
+}
+
+.PERTHO footer a span {
+    color: var(--pertho)
+}
+
+.PERTHO .kDMWkW,
+.PERTHO .jwwuMV,
+.PERTHO .Third .right .wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--pertho);
+}
+
+
+.PERTHO .bglight,
+.PERTHO .mobile-background  {
+    background-color: var(--pertho);
+}
+
+.PERTHO .rightBtn svg path,
+.PERTHO header .socials svg rect,
+.PERTHO header .socials .insta path {
+    stroke: var(--pertho);
+    fill: none;
+}
+
+
+/* ALGIZ */
+
+.ALGIZ header path {
+    fill: var(--algiz)
+}
+
+.ALGIZ header span,
+.ALGIZ header span::before,
+.ALGIZ header span::after {
+    background-color: var(--algiz);
+}
+
+.ALGIZ footer a span {
+    color: var(--algiz)
+}
+
+.ALGIZ .kDMWkW,
+.ALGIZ .jwwuMV,
+.ALGIZ .Third .right .wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--algiz);
+}
+
+
+.ALGIZ .bglight,
+.ALGIZ .mobile-background  {
+    background-color: var(--algiz);
+}
+
+.ALGIZ .rightBtn svg path,
+.ALGIZ header .socials svg rect,
+.ALGIZ header .socials .insta path {
+    stroke: var(--algiz);
+    fill: none;
+}
+
+
+/* SOWILO */
+
+.SOWILO header path {
+    fill: var(--sowilo)
+}
+
+.SOWILO header span,
+.SOWILO header span::before,
+.SOWILO header span::after {
+    background-color: var(--sowilo);
+}
+
+.SOWILO footer a span {
+    color: var(--sowilo)
+}
+
+.SOWILO .kDMWkW,
+.SOWILO .jwwuMV,
+.SOWILO .Third .right .wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--sowilo);
+}
+
+
+.SOWILO .bglight,
+.SOWILO .mobile-background  {
+    background-color: var(--sowilo);
+}
+
+.SOWILO .rightBtn svg path,
+.SOWILO header .socials svg rect,
+.SOWILO header .socials .insta path {
+    stroke: var(--sowilo);
+    fill: none;
+}
+
+/* TEIWAZ */
+
+.TEIWAZ header path {
+    fill: var(--teiwaz)
+}
+
+.TEIWAZ header span,
+.TEIWAZ header span::before,
+.TEIWAZ header span::after {
+    background-color: var(--teiwaz);
+}
+
+.TEIWAZ footer a span {
+    color: var(--teiwaz)
+}
+
+.TEIWAZ .kDMWkW,
+.TEIWAZ .jwwuMV,
+.TEIWAZ .Third .right .wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--teiwaz);
+}
+
+
+.TEIWAZ .bglight,
+.TEIWAZ .mobile-background  {
+    background-color: var(--teiwaz);
+}
+
+.TEIWAZ .rightBtn svg path,
+.TEIWAZ header .socials svg rect,
+.TEIWAZ header .socials .insta path {
+    stroke: var(--teiwaz);
+    fill: none;
+}
+
+
+/* BERKANO */
+
+.BERKANO header path {
+    fill: var(--berkano)
+}
+
+.BERKANO header span,
+.BERKANO header span::before,
+.BERKANO header span::after {
+    background-color: var(--berkano);
+}
+
+.BERKANO footer a span {
+    color: var(--berkano)
+}
+
+.BERKANO .kDMWkW,
+.BERKANO .jwwuMV,
+.BERKANO .Third .right .wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--berkano);
+}
+
+
+.BERKANO .bglight,
+.BERKANO .mobile-background  {
+    background-color: var(--berkano);
+}
+
+.BERKANO .rightBtn svg path,
+.BERKANO header .socials svg rect,
+.BERKANO header .socials .insta path {
+    stroke: var(--berkano);
+    fill: none;
+}
+
+
+/* EHWAZ */
+
+.EHWAZ header path {
+    fill: var(--ehwaz)
+}
+
+.EHWAZ header span,
+.EHWAZ header span::before,
+.EHWAZ header span::after {
+    background-color: var(--ehwaz);
+}
+
+.EHWAZ footer a span {
+    color: var(--ehwaz)
+}
+
+.EHWAZ .kDMWkW,
+.EHWAZ .jwwuMV,
+.EHWAZ .Third .right .wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--ehwaz);
+}
+
+
+.EHWAZ .bglight,
+.EHWAZ .mobile-background  {
+    background-color: var(--ehwaz);
+}
+
+.EHWAZ .rightBtn svg path,
+.EHWAZ header .socials svg rect,
+.EHWAZ header .socials .insta path {
+    stroke: var(--ehwaz);
+    fill: none;
+}
+
+
+/* MANNAZ */
+
+.MANNAZ header path {
+    fill: var(--mannaz)
+}
+
+.MANNAZ header span,
+.MANNAZ header span::before,
+.MANNAZ header span::after {
+    background-color: var(--mannaz);
+}
+
+.MANNAZ footer a span {
+    color: var(--mannaz)
+}
+
+.MANNAZ .kDMWkW,
+.MANNAZ .jwwuMV,
+.MANNAZ .Third .right .wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--mannaz);
+}
+
+
+.MANNAZ .bglight,
+.MANNAZ .mobile-background  {
+    background-color: var(--mannaz);
+}
+
+.MANNAZ .rightBtn svg path,
+.MANNAZ header .socials svg rect,
+.MANNAZ header .socials .insta path {
+    stroke: var(--mannaz);
+    fill: none;
+}
+
+
+/* LAGUZ */
+
+.LAGUZ header path {
+    fill: var(--laguz)
+}
+
+.LAGUZ header span,
+.LAGUZ header span::before,
+.LAGUZ header span::after {
+    background-color: var(--laguz);
+}
+
+.LAGUZ footer a span {
+    color: var(--laguz)
+}
+
+.LAGUZ .kDMWkW,
+.LAGUZ .jwwuMV,
+.LAGUZ .Third .right .wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--laguz);
+}
+
+
+.LAGUZ .bglight,
+.LAGUZ .mobile-background  {
+    background-color: var(--laguz);
+}
+
+.LAGUZ .rightBtn svg path,
+.LAGUZ header .socials svg rect,
+.LAGUZ header .socials .insta path {
+    stroke: var(--laguz);
+    fill: none;
+}
+
+
+/* INGWAZ */
+
+.INGWAZ header path {
+    fill: var(--ingwaz)
+}
+
+.INGWAZ header span,
+.INGWAZ header span::before,
+.INGWAZ header span::after {
+    background-color: var(--ingwaz);
+}
+
+.INGWAZ footer a span {
+    color: var(--ingwaz)
+}
+
+.INGWAZ .kDMWkW,
+.INGWAZ .jwwuMV,
+.INGWAZ .Third .right .wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--ingwaz);
+}
+
+
+.INGWAZ .bglight,
+.INGWAZ .mobile-background  {
+    background-color: var(--ingwaz);
+}
+
+.INGWAZ .rightBtn svg path,
+.INGWAZ header .socials svg rect,
+.INGWAZ header .socials .insta path {
+    stroke: var(--ingwaz);
+    fill: none;
+}
+
+
+/* DAGAZ */
+
+.DAGAZ header path {
+    fill: var(--dagaz)
+}
+
+.DAGAZ header span,
+.DAGAZ header span::before,
+.DAGAZ header span::after {
+    background-color: var(--dagaz);
+}
+
+.DAGAZ footer a span {
+    color: var(--dagaz)
+}
+
+.DAGAZ .kDMWkW,
+.DAGAZ .jwwuMV,
+.DAGAZ .Third .right .wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--dagaz);
+}
+
+
+.DAGAZ .bglight,
+.DAGAZ .mobile-background  {
+    background-color: var(--dagaz);
+}
+
+.DAGAZ .rightBtn svg path,
+.DAGAZ header .socials svg rect,
+.DAGAZ header .socials .insta path {
+    stroke: var(--dagaz);
+    fill: none;
+}
+
+
+/* OTHALA */
+
+.OTHALA header path {
+    fill: var(--othala)
+}
+
+.OTHALA header span,
+.OTHALA header span::before,
+.OTHALA header span::after {
+    background-color: var(--othala);
+}
+
+.OTHALA footer a span {
+    color: var(--othala)
+}
+
+.OTHALA .kDMWkW,
+.OTHALA .jwwuMV,
+.OTHALA .Third .right .wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--othala);
+}
+
+
+.OTHALA .bglight,
+.OTHALA .mobile-background  {
+    background-color: var(--othala);
+}
+
+.OTHALA .rightBtn svg path,
+.OTHALA header .socials svg rect,
+.OTHALA header .socials .insta path {
+    stroke: var(--othala);
+    fill: none;
+}

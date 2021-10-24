@@ -1,38 +1,288 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html {
+  overflow: hidden;
+}
+
+.mobile {
+  display: none;
+}
+
+:root {
+  --grey-color: #707070;
+  --green-color: #3BFFE1;
+  --fehu: #C90118;
+  --uruz: #650022;
+  --thurisaz: #95481D;
+  --anzus: #F2DE00;
+  --raidho: #970097;
+  --kenaz: #F04F00;
+  --gebo: #D912B1;
+  --wunjo: #F6007B;
+  --hagal: #393F3E;
+  --nauthiz: #727272;
+  --isa: #D1D1D1;
+  --jera: #9FDA00;
+  --eihwaz: #006CF2;
+  --pertho: #DFCD9F;
+  --algiz: #7B3C26;
+  --sowilo: #D79635;
+  --teiwaz: #D100E4;
+  --berkano: #005C16;
+  --ehwaz: #05FFC2;
+  --mannaz: #AAB5B7;
+  --laguz: #96FF00;
+  --ingwaz: #FCC8FF;
+  --dagaz: #FFFFFF;
+  --othala: #0017F0;
+}
+
+.green .kDMWkW,
+.green .jwwuMV,
+.green .eUawCC {
+  background: var(--green-color);
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../src/assets/fonts/raleway/Raleway-ExtraBold.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway Regular';
+  src: url('../src/assets/fonts/raleway/Raleway-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../src/assets/fonts/lato/Lato-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Lato Light';
+  src: url('../src/assets/fonts/lato/Lato-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Lato Heavy';
+  src: url('../src/assets/fonts/lato/Lato-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Runic';
+  src: url('../src/assets/fonts/runic/FUTHA___.TTF');
+}
+
+@font-face {
+  font-family: 'Roboto Custom';
+  src: url('../src/assets/fonts/roboto/Roboto-Light.ttf');
+}
+
+body {
+  background: black;
+  overflow: hidden;
+  position: relative;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 100vh;
+  justify-content: space-between;
+  position: relative;
+  padding: 2.1vw 2.1vw;
+}
+
+h1, h2, h3, h4, h5, p, a {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h1, h2, h3, h4, h5 {
+  font-family: 'Raleway';
+  text-transform: uppercase;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+h2 {
+  font-size: 2.915vw;
+  letter-spacing: 30.8px;
+  line-height: 3.95vw;
+}
+
+h1 {
+  font-size: 1.4vw;
+  letter-spacing: 11.88px;
+  margin: 0;
+}
+
+h3 {
+  font-size: .99vw;
+  letter-spacing: 8.36px;
+  line-height: 1.6vw;
+  margin: 0;
+  z-index: 2;
+}
+
+
+button, a {
+  text-transform: uppercase;
+  padding: 0;
+  cursor: pointer;
+  background: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  font-family: 'Roboto Custom';
+}
+
+p {
+  font-family: 'Roboto Custom';
+  font-weight: 300;
+  margin: 0;
+  font-size: 16px;
+  letter-spacing: .176px;;
+  line-height: 30px;
+}
+
+.mobile-background {
+  display: none;
+}
+
+
+/* Mobile */
+
+@media screen and (max-width: 1024px) {
+
+  h1 {
+    font-size: 19.08px;
+    letter-spacing: 8.36px;
   }
-  to {
-    transform: rotate(360deg);
+
+  h2 {
+    font-size: 33px;
+    letter-spacing: 18.15px;
+    line-height: 40px;
   }
+
+  h3 {
+    font-size: 13px;
+    letter-spacing: 5.72px;
+    line-height: 20px;
+  }
+
+  h5 {
+    font-size: 19px;
+    list-style: 35px;
+  }
+
+  p {
+    font-size: 15px;
+    letter-spacing: .165px;
+    line-height: 25px;
+  }
+
+  a {
+    font-size: 13px;
+  }
+
+  .green .kDMWkW,
+  .green .jwwuMV {
+    display: none;
+   }
+  
+  .App {
+    padding: 0;
+  }
+
+  .global-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .mobile-background {
+    position: absolute;
+    background: var(--green-color);
+    z-index: -1;
+    filter: blur(75px);
+    transition: .2s ease;
+    display: block;
+    border-radius: 100%;
+  }
+
+  .intro .mobile-background,
+  .start .mobile-background {
+    width: 100%;
+    height: 64vh;
+  }
+  
+
+  .second .mobile-background,
+  .third .mobile-background {
+    width: 56vw;
+    height: 56vw;
+  }
+
+  .firstSlide .mobile-background,
+  .secondSlide .mobile-background {
+    opacity: 0;
+  }
+
+  .mobile-background.second {
+    transform: translateX(-300%);
+    transition: 2s cubic-bezier(0.65,0.05,0.36,1);
+    /* transition-delay: .25s; */
+  }
+
+  .light .mobile-background.second {
+    transform: translateX(300%);
+  }
+
+  .mobile-background.first {
+    animation: background-move 1 3s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes background-move {
+    0% {
+      transform: translateY(-250%);
+    }
+
+    50% {
+      transform: translateY(120%);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .global-background {
+    width: 97%
+  }
+
+  .intro header,
+  .intro main,
+  .intro .Dynamic-box {
+    opacity: 0;
+  }
+
+  .intro .Intro {
+    z-index: 2;
+  }
+
+  
+
 }

@@ -1,0 +1,382 @@
+.Third {
+    opacity: 0;
+    position: absolute;
+    flex-direction: row;
+}
+
+@media screen and (min-width: 1024px) {
+    .third .Dynamic-box {
+        background-color: black;
+    }
+}
+
+
+.third .First {
+    display: none;
+}
+
+.third .Second::after {
+    z-index: -1;
+}
+
+.third .empty {
+    opacity: 1;
+}
+
+.third .empty {
+    transform: translateX(-48%);
+    transition-delay: 3s;
+}
+
+.third .Third {
+    z-index: 0;
+    animation: appear .74s ease;
+    animation-fill-mode: forwards;
+    animation-delay: 2.5s;
+}
+
+@keyframes appear {
+from {
+    opacity: 0;
+   }
+to {
+    opacity: 1;
+   }
+}
+
+.Third .left {
+    width: 67%;
+}
+
+.Third .date,
+.Third h4,
+.Third h5 {
+    font-family: 'Raleway';
+    font-size: 19px;
+    letter-spacing: 8.36px;
+}
+
+.Third h2 {
+    margin: 2.25vw 0 1.28vw;
+}
+
+.Third h4 {
+    margin: 0;
+    font-family: 'Runic';
+    margin-bottom: 2vw;
+}
+
+.Third .left .names {
+    margin-bottom: 2.25vw;
+}
+
+
+.Third .right {
+    width: 33%;
+    position: relative;
+}
+
+.Third .left .about-box {
+    width: 288.88px;
+}
+
+/* .Third .left .about-box .astrology {
+    width: 112%;
+} */
+
+.Third .left .about-box div:not(.mobile) {
+    display: flex;
+}
+
+.Third .left .about-box div:nth-child(1):not(.about-box .astrology div, .imageBox) {
+    width: 100%;
+}
+
+/* .Third .left .about-box div:nth-child(3) {
+    width: 90%;
+}
+
+.Third .left .about-box div:nth-child(4) {
+    width: 90%;
+} */
+
+.Third .left .about-box div:not(.about-box .elements div, .about-box .astrology div) {
+    justify-content: space-between;
+}
+
+.Third .left .elements p:first-of-type {
+    margin-left: 10px;
+}
+
+.Third .left .astrology p:first-of-type {
+    margin-left: 8px;
+}
+
+.Third .left .about-box p {
+    text-align: right;
+}
+
+.Third .left .imageBox {
+    width: 18.9px;
+    height: auto;
+    justify-content: center;
+}
+
+.Third .left .imageBox img {
+    width: fit-content;
+}
+
+.Third .right h3,
+.Third .right .date {
+    align-self: flex-end;
+}
+
+.Third .right .date {
+    margin-bottom: 1.35vw;
+}
+
+.Third h5 {
+    margin-bottom: 1.35vw;
+    line-height: 13px;
+    width: 102%;
+}
+
+.Third .right button {
+    border: 1px solid;
+    /* width: 18.85vw; */
+    width: 362px;
+    height: 66px;
+    /* height: 3.4vw; */
+    font-size: .835vw;
+    letter-spacing: 3.52px;
+    transition: .74s ease;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+}
+
+.Third .right button:hover {
+    box-shadow: 0 0 22px;
+}
+
+.Third .right .wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .Third {
+        padding: 0 0 30px;
+        transform: translateX(50%);
+        transition: .74s cubic-bezier(0.65,0.05,0.36,1);
+    }
+
+    .light .Dynamic-box {
+        background-color: transparent;
+        transition: .5s ease;
+        transition-delay: .5s;
+    }
+
+    .Third.MainBox {
+        width: 200vw;
+        left: 0;
+        justify-content: space-between;
+        z-index: 15;
+    }
+
+    .Third.MainBox .left {
+        padding: 30px 30px 1.25vh;
+        width: auto;
+        height: 100%;
+        justify-content: center;
+    }
+
+    .Third .left .date-box {
+        display: flex;
+        width: 80vw;
+        justify-content: space-between;
+    }
+
+    .Third .left .about-box {
+        margin-top: 5vh;
+        width: 100%;
+    }
+
+    .Third .left .about-box div {
+        margin-top: 2px;
+    }
+
+    .Third .left .about-box p {
+        text-align: left;
+    }
+
+    .Third .meaning,
+    .Third .rune-number {
+        line-height: 26px;
+    }
+
+    .Third .meaning {
+        width: 85%;
+    }
+
+    .Third .rune-number {
+        margin-top: 6.5vh;
+    }
+
+    .Third h4 {
+        margin-top: 1.5vh;
+    }
+
+    .Third h2 {
+        margin-top: 4.75vh;
+    }
+
+    .Third h5 {
+        width: 89%;
+    }
+
+    .Third .left {
+        width: auto;
+        align-self: center;
+    }
+    
+    .Third .date, .Third h4 {
+        font-size: 13px;
+    }
+
+    .Third .date {
+        letter-spacing: 4px;
+    }
+
+    .Third h2 {
+        font-size: 33px;
+    }
+
+    /* .Third .left .about-box div:nth-child(1):not(.about-box .astrology div), 
+    .imageBox {
+        width: unset;
+    }
+
+    .Third .left .about-box div:not(.about-box .elements div, .about-box .astrology div) {
+        justify-content: unset;
+    } */
+
+    .Third .left .elements p:first-of-type {
+        margin-left: 0;
+    }
+
+    .Third .left .elements div:first-child p {
+        margin-left: 10px;
+    }
+
+    .Third .elements .mobile,
+    .Third .astrology .mobile {
+        width: 100%;
+    }
+
+    .Third .character-box {
+        width: 49.5%;
+    }
+
+    .Third .left .astrology div:first-child:not(.astrology .imageBox) {
+        width: 100%;
+    }
+
+    .Third .left .astrology p:first-of-type {
+        margin-left: 0;
+    }
+
+    .Third .left .astrology div:first-child p {
+        margin-left: 8px;
+    }
+
+    .Third .right {
+        width: 100%;
+        place-content: center;
+        height: 100%;
+    }
+
+    .Third .right .wrapper {
+        overflow-y: auto;
+        overflow-x: hidden;
+        width: 83vw;
+    }
+
+    .Third .right .wrapper::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    .Third .right .wrapper .about {
+        width: 91.5%;
+    }
+
+    .Third h5 {
+        line-height: 30px;
+        margin-top: 8px;
+        margin-bottom: 18px;
+    }
+
+    .Third.Third.MainBox .right {
+        padding: 4.5vh 35px 0 12.5vw;
+        align-self: center;
+    }
+
+    .Third .shadowbox {
+        width: 94%;
+        height: 35px;
+        left: -5%;
+        position: absolute;
+    }
+
+    .Third .shadowbox:first-of-type {
+        top: 2%;
+        background-image:
+        linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0), rgba(0,0,0,1)
+        );
+    } 
+
+    .Third .shadowbox:last-of-type {
+        bottom: -5%;
+        background-image:
+        linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0), rgba(0,0,0,1)
+        );
+    }
+
+    /* First Slide */
+
+    .firstSlide .Third {
+        transform: translateX(0);
+    }
+
+    .firstSlide .Dynamic-box,
+    .secondSlide .Dynamic-box {
+        background-color: black;
+        transition-delay: unset;
+        transition: .23s ease;
+    }
+
+    .secondSlide .Third {
+        transform: translateX(-50%);
+    }
+
+    .Third .right .wrapper {
+        overflow-y: auto;
+    }
+
+
+    .Third .right .wrapper::-webkit-scrollbar-thumb {
+        width: 4px;
+    }
+
+    .Third .right .wrapper::-webkit-scrollbar-track {
+        width: 4px;
+        background: #1e1819;
+    }
+
+}

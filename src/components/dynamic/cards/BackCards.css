@@ -1,0 +1,176 @@
+.main-cards {
+    z-index: -1;
+}
+
+.deck svg:not(.main-card.front button svg, .main-card.front .hoverlight) {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.deck button {
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+.deck .border {
+    z-index: 2;
+}
+
+.deck .moon,
+.deck button {
+    z-index: 3;
+}
+
+
+.deck svg g .path-runes,
+.deck text {
+    stroke: none;
+}
+
+.deck svg path,
+.deck g {
+    stroke: #5E6261;
+}
+
+.deck .moon svg path,
+.deck .moon .moon-circle,
+.deck .path-runes,
+.deck .main-card.front button svg text {
+    fill: #5E6261;
+}
+
+
+.main-cards div:nth-child(2) {
+    z-index: 4;
+}
+
+.main-cards div:nth-child(3) {
+    z-index: 3;
+}
+
+.main-cards div:nth-child(4) {
+    z-index: 2;
+}
+
+.main-cards div:nth-child(5) {
+    z-index: 1;
+}
+
+.main-cards {
+    transition: .74s ease;
+}
+
+.main-cards div {
+    box-shadow: 0 0 18px #000;
+}
+
+.carddeck .main-cards div {
+    transition-delay: 2s;
+}
+
+.main-card.deck .border {
+    height: 93.5%;
+}
+
+
+.carddeck .main-cards div:nth-child(2) {
+    transform: rotate(1.7deg);
+}
+
+.carddeck .main-cards div:nth-child(3) {
+    transform: rotate(7.4deg);
+}
+
+.carddeck .main-cards div:nth-child(4) {
+    transform: rotate(15deg);
+}
+
+.carddeck .main-cards div:nth-child(5) {
+    transform: rotate(20.9deg);
+}
+
+.third .main-cards div {
+    transform: rotate(0);
+    transition-delay: 1.5s;
+    animation: movedeckDesktop .74s ease;
+    animation-fill-mode: forwards;
+}
+
+.third .main-cards div:nth-child(2) {
+    animation-delay: 2.15s;
+}
+
+.third .main-cards div:nth-child(3) {
+    animation-delay: 2.2s;
+}
+
+.third .main-cards div:nth-child(4) {
+    animation-delay: 2.25s;
+}
+
+.third .main-cards div:nth-child(5) {
+    animation-delay: 2.3s;
+}
+
+@keyframes movedeckDesktop {
+    from {
+        transform: rotate(0) translateX(0);
+    }
+    to {
+        transform: rotate(0) translateX(-50%);
+    }
+}
+
+.third .main-cards {
+    transform: translateY(0);
+    transition-delay: 2s;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .carddeck .main-cards div {
+        transition-delay: 1s;
+    }
+
+    .carddeck .main-cards div:nth-child(2) {
+        transform: rotate(4.5deg);
+    }
+    
+    .carddeck .main-cards div:nth-child(3) {
+        transform: rotate(8.5deg);
+    }
+    
+    .carddeck .main-cards div:nth-child(4) {
+        transform: rotate(12.5deg);
+    }
+    
+    .carddeck .main-cards div:nth-child(5) {
+        display: none;
+    }
+
+    /* @keyframes movedeckMobile {
+
+        from {
+            transform: rotate(0) translateX(0);
+        }
+        to {
+            transform: rotate(0) translateX(-15%);
+        }
+    } */
+
+    .third .main-cards div {
+        animation: none;
+    }
+
+    .moon {
+        width: 80%;
+    }
+
+  }

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="216" height="65" viewBox="0 0 216 65">
+  <g id="losuj_top" data-name="losuj top" transform="translate(-1006 -284)">
+    <g id="Prostokąt_4_kopia_8" data-name="Prostokąt 4 kopia 8" transform="translate(1015 284)" stroke="#3bffe1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+      <rect width="199" height="65" stroke="none"/>
+      <rect x="0.5" y="0.5" width="198" height="64" fill="none"/>
+    </g>
+    <g id="Prostokąt_4_kopia_8-2" data-name="Prostokąt 4 kopia 8" transform="translate(1006 291)" fill="rgba(0,0,0,0)" stroke="#3bffe1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+      <rect width="216" height="50" stroke="none"/>
+      <rect x="0.5" y="0.5" width="215" height="49" fill="none"/>
+    </g>
+    <g id="Prostokąt_4_kopia_17" data-name="Prostokąt 4 kopia 17" transform="translate(1015 291)" stroke="#3bffe1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+      <rect width="199" height="50" stroke="none"/>
+      <rect x="0.5" y="0.5" width="198" height="49" fill="none"/>
+    </g>
+    <text id="LOSUJ_RUNĘ" data-name="LOSUJ RUNĘ" transform="translate(1115.908 321.287)" fill="#3bffe1" font-size="16" font-family="Lato-Bold, Lato" font-weight="700" letter-spacing="0.22em"><tspan x="-63.576" y="0">LOSUJ RUNĘ</tspan></text>
+  </g>
+</svg>

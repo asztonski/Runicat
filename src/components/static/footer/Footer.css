@@ -1,0 +1,69 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+footer p,
+footer a {
+    font-family: 'Roboto';
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+footer svg {
+    position: absolute;
+    bottom: -1px;
+    left: 31%;
+    z-index: 2;
+}
+
+footer svg path {
+    fill: black;
+}
+
+footer p,
+footer a {
+    letter-spacing: 6.16px;
+    font-size: 14px;
+}
+
+footer a span {
+    color: var(--green-color);
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    footer {
+        height: 50px;
+        /* background-color: black; */
+        padding: 5px;
+        align-items: flex-end;
+        padding: 0px 5px 15px;
+        /* animation: getcolor .25s ease forwards; */
+        animation: appear .74s ease forwards;
+        animation-delay: 2.75s;
+        opacity: 0;
+    }
+
+    @keyframes appear {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+
+    footer p,
+    footer a {
+        height: fit-content;
+    }
+
+    footer p {
+        line-height: unset;
+    }
+  }

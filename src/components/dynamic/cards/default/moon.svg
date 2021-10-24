@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="218.789" height="218.789" viewBox="0 0 218.789 218.789">
+  <g id="moon" transform="translate(-1004.606 -370.606)">
+    <rect id="Prostokąt_11" data-name="Prostokąt 11" width="154" height="154" transform="translate(1037 403)" stroke-width="1" stroke="#3bffe1" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect id="Prostokąt_11_kopia_8" data-name="Prostokąt 11 kopia 8" width="134" height="134" transform="translate(1047 413)" stroke-width="1" stroke="#3bffe1" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="Prostokąt_11_kopia_2" data-name="Prostokąt 11 kopia 2" d="M1114,371.105,1222.894,480,1114,588.894,1005.106,480Z" stroke="#3bffe1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Prostokąt_11_kopia_9" data-name="Prostokąt 11 kopia 9" d="M1115,384.105,1209.894,479,1115,573.894,1020.106,479Z" stroke="#3bffe1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Prostokąt_11_kopia_10" data-name="Prostokąt 11 kopia 10" d="M1115,404.105,1189.894,479,1115,553.894,1040.106,479Z" stroke="#3bffe1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Prostokąt_zaokrąglony_14_kopia" data-name="Prostokąt zaokrąglony 14 kopia" d="M1055.006,538.494a65.527,65.527,0,0,1,0-117.988,65.527,65.527,0,0,1,117.988,0,65.527,65.527,0,0,1,0,117.988,65.527,65.527,0,0,1-117.988,0Z" fill="none" stroke="#3bffe1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <circle id="Elipsa_2" data-name="Elipsa 2" cx="67" cy="67" r="67" transform="translate(1048.5 412.5)" stroke-width="1" stroke="#3bffe1" stroke-linecap="round" stroke-linejoin="round"/>
+    <g id="Grupa_7" data-name="Grupa 7">
+      <circle id="Elipsa_2_kopia" data-name="Elipsa 2 kopia" cx="55.03" cy="55.03" r="55.03" transform="translate(1060.47 424.47)" stroke-width="1" stroke="#3bffe1" stroke-linecap="round" stroke-linejoin="round" fill="#3bffe1"/>
+      <circle id="Elipsa_4" data-name="Elipsa 4" cx="49.97" cy="49.97" r="49.97" transform="translate(1071.53 429.53)" stroke-width="1" stroke="#3bffe1" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

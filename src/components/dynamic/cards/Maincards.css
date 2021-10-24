@@ -1,0 +1,241 @@
+.main-card-container {
+    position: absolute;
+    top: 4vw;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: -1;
+    left: 18.75%;
+    /* width: 15.625vw;
+    height: 28.334vw; */
+    height: 544px;
+    width: 301px;
+    display: grid;
+    z-index: 8;
+}
+
+.start .main-card-container {
+    display: none;
+    opacity: 0;
+}
+
+.first .main-card-container {
+    animation: disappear .74s ease;
+    animation-fill-mode: forwards;
+    animation-delay: .74s;
+    z-index: -1;
+    transition-delay: 1.3s;
+}
+
+@keyframes disappear {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+ }
+
+
+.main-card {
+    border-radius: 25px;
+    position: absolute;
+    background-color: black;
+    border: 11px solid;
+    justify-content: center;
+    padding: 0.7vw;
+    z-index: 7;
+    transition: .74s ease;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.main-cards .main-card {
+    border-color: #393F3E;
+}
+
+.main-card.front .hoverlight,
+.main-card-container .hoverlightunder {
+    position: absolute;
+}
+
+.main-card-container .hoverlightunder {
+    top: -4.5vw;
+    width: 36vw;
+}
+
+.main-cards {
+    display: flex;
+    place-content: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+
+.main-card-container:hover .empty {
+    animation: borderhoverlight .36s ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes borderhoverdark {
+    from {
+        border-color: #5E6261;
+    }
+    to {
+        border-color:  #393F3E;
+    }
+}
+
+@keyframes borderhoverlight {
+    from {
+        border-color:  #393F3E;
+    }
+    to {
+        border-color: #5E6261;
+    }
+}
+
+.main-card button:nth-child(1) {
+    top: 14%;
+}
+
+.main-card button:nth-child(6) {
+    bottom: 13%;
+}
+
+.hoverlight {
+    position: absolute;
+    opacity: 0;
+    transition: .74s ease;
+    z-index: 0;
+    right: -35%;
+    width: 24.8vw;
+}
+
+.hoverlightunder {
+    position: absolute;
+    opacity: 0;
+    transition: .74s ease;
+    z-index: 6;
+}
+
+.main-card-container:hover .hoverlightunder,
+.main-card.front:hover .hoverlight {
+    opacity: 1;
+}
+
+.moon {
+    position: absolute;
+    align-self: center;
+    z-index: 3;
+}
+
+.moon:not(.main-card.back .moon) {
+    width: 11.395vw;
+}
+
+.pointer {
+    position: absolute;
+    align-self: center;
+    z-index: 3;
+}
+
+
+.third .hoverlightunder,
+.third .hoverlight {
+    display: none;
+}
+
+/* .main-card .react-card-back {
+    opacity: 0;
+    transition: .74s ease;
+}
+
+.third .main-card .react-card-back {
+    opacity: 1;
+} */
+
+
+.third .main-card.front,
+.third .main-card.back {
+    opacity: 1;
+    transition-delay: 1.85s;
+}
+
+
+
+
+/* Second View */
+
+.second .main-card-container {
+    display: grid;
+    animation: appear .74s ease;
+    animation-fill-mode: forwards;
+    animation-delay: .8s;
+    z-index: 8;
+    opacity: 0;
+}
+
+@keyframes appear {
+   from {
+       opacity: 0;
+   }
+   to {
+       opacity: 1;
+   }
+}
+
+
+.second .main-card {
+    transition-delay: .36s;
+}
+
+.third .main-card-container div:nth-child(1):not(.main-card.front, .main-card.back) {
+    transform: translateX(-50%);
+    transition: .74s ease;
+    transition-delay: 2s;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .main-card-container {
+        left: 0;
+        height: 446px;
+        width: 250px;
+        top: 0;
+        bottom: 0;
+        transition: .74s cubic-bezier(0.65,0.05,0.36,1);
+    }
+
+    .moon:not(.main-card.back .moon) {
+        width: 77.63%;
+        top: unset;
+    }
+
+    .hoverlight {
+        width: 107.225vw;
+        right: unset;
+        left: unset;
+        opacity: 1;
+    }
+
+    .main-cards div:not(.main-cards div:nth-child(4)) {
+        box-shadow: 0 0 9px #000;
+    }
+
+    .main-cards div:nth-child(4) {
+        box-shadow: none;
+    }
+
+    .third .main-card-container div:nth-child(1):not(.main-card.front, .main-card.back) {
+        transform: translateX(0);
+    }
+
+    .firstSlide .main-card-container,
+    .secondSlide .main-card-container {
+        transform: translateX(-130%);
+    }
+}

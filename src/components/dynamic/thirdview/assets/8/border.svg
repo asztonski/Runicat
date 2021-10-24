@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256.03" height="500.06" viewBox="0 0 256.03 500.06">
+  <g id="karta_bg" data-name="karta bg" transform="translate(-829.97 -227.97)">
+    <g id="Prostokąt_4_kopia_2" data-name="Prostokąt 4 kopia 2" transform="translate(840 237)" stroke="#f6007b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+      <rect width="239" height="483" stroke="none"/>
+      <rect x="0.5" y="0.5" width="238" height="482" fill="none"/>
+    </g>
+    <g id="Prostokąt_4_kopia_16" data-name="Prostokąt 4 kopia 16" transform="translate(830 237)" fill="none" stroke="#f6007b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+      <rect width="256" height="483" stroke="none"/>
+      <rect x="0.5" y="0.5" width="255" height="482" fill="none"/>
+    </g>
+    <g id="Prostokąt_4_kopia_10" data-name="Prostokąt 4 kopia 10" transform="translate(861 229)" stroke="#f6007b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+      <rect width="196" height="9" stroke="none"/>
+      <rect x="0.5" y="0.5" width="195" height="8" fill="none"/>
+    </g>
+    <g id="Prostokąt_4_kopia_11" data-name="Prostokąt 4 kopia 11" transform="translate(860.99 719)" stroke="#f6007b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+      <rect width="195.95" height="9" stroke="none"/>
+      <rect x="0.5" y="0.5" width="194.95" height="8" fill="none"/>
+    </g>
+    <circle id="Elipsa_1" data-name="Elipsa 1" cx="9.03" cy="9.03" r="9.03" transform="translate(830.47 228.47)" stroke-width="1" stroke="#f6007b" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle id="Elipsa_1_kopia" data-name="Elipsa 1 kopia" cx="9.03" cy="9.03" r="9.03" transform="translate(1067.41 228.47)" stroke-width="1" stroke="#f6007b" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle id="Elipsa_1_kopia_2" data-name="Elipsa 1 kopia 2" cx="9.03" cy="9.03" r="9.03" transform="translate(830.47 709.47)" stroke-width="1" stroke="#f6007b" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle id="Elipsa_1_kopia_2-2" data-name="Elipsa 1 kopia 2" cx="9.03" cy="9.03" r="9.03" transform="translate(1067.41 709.47)" stroke-width="1" stroke="#f6007b" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle id="Elipsa_5" data-name="Elipsa 5" cx="3.12" cy="3.12" r="3.12" transform="translate(836.38 234.38)" stroke-width="1" stroke="#f6007b" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle id="Elipsa_5_kopia" data-name="Elipsa 5 kopia" cx="3.12" cy="3.12" r="3.12" transform="translate(1073.32 234.38)" stroke-width="1" stroke="#f6007b" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle id="Elipsa_5_kopia_2" data-name="Elipsa 5 kopia 2" cx="3.12" cy="3.12" r="3.12" transform="translate(836.38 715.38)" stroke-width="1" stroke="#f6007b" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle id="Elipsa_5_kopia_2-2" data-name="Elipsa 5 kopia 2" cx="3.12" cy="3.12" r="3.12" transform="translate(1073.32 715.38)" stroke-width="1" stroke="#f6007b" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

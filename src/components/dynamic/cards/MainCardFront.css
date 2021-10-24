@@ -1,0 +1,170 @@
+.main-card.front .moon {
+    top: 29%;
+}
+
+.main-card.front .pointer {
+    top: 45.5%;
+    left: 44.5%;
+}
+
+.main-card.front button svg {
+    z-index: 1;
+}
+
+.main-card.front .border {
+    width: 91%;
+    z-index: 0;
+}
+
+.main-card.front {
+    transform: rotateY(0deg) translateY(0);
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    border-color: var(--green-color);
+    z-index: 8;
+}
+
+.main-card-container .main-card.front:nth-child(2):not(.main-cards .main-card.front) {
+    z-index: 9;
+}
+
+.main-card.front button {
+    position: absolute;
+    z-index: 3;
+    /* left: 0;
+    right: 0; */
+    margin: auto;
+}
+
+.main-card.front svg:not(.main-card.front button svg, .main-card.front .hoverlight) {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.main-card.front .border {
+    height: 100%;
+}
+
+.main-card.main-card.front .border,
+.main-card.main-card.front .hoverlight {
+    z-index: 2;
+}
+
+.main-card.front .moon,
+.main-card.front button,
+.main-card.front .pointer {
+    z-index: 3;
+}
+
+.third .main-card.front {
+    animation: flipfront .74s ease;
+    animation-fill-mode: forwards;
+    animation-delay: 2.75s;
+
+}
+
+.third .main-card {
+    /* transform: translateX(-50%); */
+    transition: .74s ease;
+    transition-delay: 2.5s;
+}
+
+
+@keyframes flipfront {
+    from {
+        transform: rotateY(0deg) translateY(0);
+    }
+    to {
+        transform: rotateY(180deg) translateY(0);
+    }
+}
+
+.main-card.front svg g .path-runes,
+.main-card.front text {
+    stroke: none;
+}
+
+.main-card.front svg path,
+.main-card.front g {
+    stroke: var(--green-color);
+}
+
+.moon svg path,
+.moon .moon-circle,
+.path-runes,
+.main-card.front button svg text {
+    fill: var(--green-color);
+}
+
+.date .main-card.front .pointer,
+.third .main-card.front .pointer {
+    opacity: 0;
+    transition: .2s ease;
+}
+
+.date .main-card.front,
+.third .main-card.front {
+    border-color: #393F3E;
+}
+
+.date .main-card.front {
+    transition: .2s ease;
+}
+
+
+.date .main-card.front svg path:not(.path-runes),
+.third .main-card.front svg path:not(.path-runes),
+.date .main-card.front g,
+.third .main-card.front g {
+    stroke: #5E6261;
+    transition: .1s ease;
+}
+
+.date .moon svg path,
+.third .moon svg path,
+.date .moon .moon-circle,
+.third .moon .moon-circle,
+.date .path-runes,
+.third .path-runes,
+.date .main-card.front button svg text,
+.third .main-card.front button svg text {
+    fill: #5E6261;
+    transition: .1s ease;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .main-card-container {
+        left: 0;
+        height: 446px;
+        width: 250px;
+    }
+
+    .main-card.front button {
+        width: 77.42%;
+        height: 12.6%;
+    }
+
+    .main-card button:nth-child(1) {
+        top: 11%;
+    }
+
+    .main-card.front button svg {
+        width: 100%;
+    }
+
+    .main-card.front .border {
+        width: 91.359%;
+        height: 95.737%;
+    }
+
+    .main-card.front .pointer {
+        width: 10.4%;
+        top: 48%;
+        left: 46%;
+    }
+}

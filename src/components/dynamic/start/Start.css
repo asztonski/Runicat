@@ -1,0 +1,259 @@
+.Start {
+    opacity: 1;
+    /* z-index: 0; */
+}
+
+.second .Start,
+.intro .Start,
+.hide .Start {
+    opacity: 0;
+    transition-delay: 0s;
+}
+
+/* .backgrounds {
+    position: absolute;
+    width: 100%;
+    display: block;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+} */
+
+.backgrounds div {
+    width: inherit;
+}
+
+.backgrounds div:not(.transparent) {
+    background-color: black;
+}
+
+.transparent div {
+    position: absolute;
+    width: 35%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 7.5vw;
+}
+
+.transparent .top {
+    top: 0;
+}
+
+.transparent .bottom {
+    bottom: 0;
+}
+
+h3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 span {
+    width: 15%;
+}
+
+h3 span:nth-child(3) {
+    text-align: end;
+}
+
+h3 span:last-child {
+    text-align: right;
+}
+
+.Start main {
+    position: relative;
+    margin-top: 7.8vw;
+}
+
+.Start .left h2 {
+    margin: 2.15vw 0 3.45vw;
+}
+
+.main-rune {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    /* margin: auto; */
+    /* width: 83.334vw; */
+}
+
+.left, .right {
+    display: flex;
+    flex-direction: column;
+}
+
+.Start .left {
+    place-content: space-evenly;
+}
+
+.Start .right {
+    place-content: space-between;
+}
+
+.Start .left {
+    width: 30.1045vw;
+}
+
+.Start .left img:first-child:not(.slider img) {
+    width: 8.9047vw;
+}
+
+.Start .right img {
+    width: 11.934vw;
+    position: relative;
+    bottom: .325vw;
+    margin-top: 2.05vw;
+}
+
+.Start .right {
+    align-self: flex-end;
+    width: 33.05%;
+    position: relative;
+    bottom: -1px;
+}
+
+.Start .right p {
+    width: 24.9vw;
+} 
+
+.Start .right button {
+    border: 1px solid var(--green-color);
+    width: 18.85vw;
+    height: 3.4vw;
+    color: var(--green-color);
+    font-size: .835vw;
+    letter-spacing: 3.52px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    transition: .74s ease;
+    z-index: 2;
+    margin-top: 2.05vw;
+}
+
+.Start .right button:hover {
+    box-shadow: 0 0 22px var(--green-color);
+}
+
+@media screen and (max-width: 1024px) {
+
+    .Start {
+        padding-bottom: 8.3vh;
+        /* wypozycjonowany 30px od dołu */
+    }
+
+
+    .Start .Dynamic-box {
+        background-color: black;
+    }
+
+    .start .Start main button,
+    .start .Start main p,
+    .start .Start h3,
+    .start .Start img,
+    .start .Start main h2 {
+        animation: appear 1s ease forwards;
+        animation-delay: 2.75s;
+    }
+
+    @keyframes appear {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .Start main {
+        flex-direction: column;
+        margin-top: 0;
+        justify-content: unset;
+    }
+
+    .Start main p {
+        opacity: 0;
+    }
+
+    .Start .left {
+        width: auto;
+    }
+
+    .Start .right {
+        align-self: center;
+        width: auto;
+    }
+
+    .Start h3 {
+        /* font-family: 'Lato Heavy'; */
+        opacity: 0;
+    }
+
+    .Start h3 span {
+        width: auto;
+    }
+
+    .Start .left img:first-child:not(.slider img) {
+        width: 125.96px;
+        margin-top: 13.6vh;
+        opacity: 0;
+    }
+
+    .Start .left h2 {
+        margin: 4vh 0 0 0;
+        opacity: 0;
+    }
+
+    .Start .right {
+        bottom: 0;
+        width: auto;
+        align-self: unset;
+    }
+
+    .Start .right p {
+        width: auto;
+        margin-top: 3vh;
+    }
+
+
+
+    .Start .right button {
+        /* width: 289px; */
+        width: 80.28vw;
+        height: 57px;
+        font-size: 13px;
+        letter-spacing: 2.86px;
+        margin-top: 10.8vh;
+        opacity: 0;
+        align-self: center;
+        background: black;
+    }
+
+    .Start .right button:active {
+        opacity: 0;
+    }
+
+    @keyframes boxshadow {
+        from {
+            box-shadow: 0 0 0 var(--green-color);
+        }
+
+        to {
+            box-shadow: 0 0 22px var(--green-color);
+        }
+    }
+
+    .Start svg {
+        height: auto;
+        width: 100vw;
+        top: -108px;
+    }
+
+  }
